@@ -4,7 +4,7 @@
   "description": "Broccoli plugin to optimize images",
   "main": "index.js",
   "author": "Matt Hackmann",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "homepage": "https://github.com/dxprog/broccoli-optimage#readme",
   "repository": {
     "type": "git",

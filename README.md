@@ -2,6 +2,10 @@
 
 Runs images in a broccoli node through optimage.
 
+##Installing
+
+```npm install --save-dev broccoli-optimage```
+
 ##API
 
 ```

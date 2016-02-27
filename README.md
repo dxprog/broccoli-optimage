@@ -8,7 +8,7 @@ Runs images in a broccoli node through optimage.
 
 ##API
 
-```
+```javascript
 var optimage = require('broccoli-optimage');
 
 module.exports = optimage(inputNode: BroccoliNode, options: Object);
@@ -21,7 +21,7 @@ module.exports = optimage(inputNode: BroccoliNode, options: Object);
 
 ##Example Usage
 
-```
+```javascript
 var merge = require('broccoli-merge-trees');
 var optimage = require('broccoli-optimage');
 var path = require('path');

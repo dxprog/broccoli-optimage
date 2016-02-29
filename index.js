@@ -70,6 +70,7 @@ BrocOptImage.prototype.processString = function(contents, relativePath) {
     }, function(err, res) {
       if (err) {
         console.warn('Error optimizing ' + relativePath + '. Using original file instead.');
+        console.warn(err);
         resolve(contents);
       } else {
         const originalSize = contents.length;
